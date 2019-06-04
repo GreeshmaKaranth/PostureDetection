@@ -54,7 +54,7 @@ void loop() {
   char data;
   if(Serial.available()>0){
     data= Serial.read();
-    while(data!='e'){
+    while(data!='0'){
       IMU.readSensor();
     //switch(data){
       
@@ -108,12 +108,13 @@ void loop() {
     //default: break;
     
     
-    if(data=='e'){
+    if(data=='0'){
+      Serial.println("Device switched off.\n");
         digitalWrite(LED1, LOW);
         digitalWrite(LED2, LOW);
         digitalWrite(LED3, LOW);
         digitalWrite(buzzer, 0);
     }
   }
-   Serial.println(data);
+   //Serial.println(data);
 }

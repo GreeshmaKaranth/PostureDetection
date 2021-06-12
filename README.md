@@ -9,7 +9,7 @@ Industrialization and urbanization have brought an enormous increase in sedentar
 The aim of this paper is to provide a feasible solution to this problem by presenting a wearable device that recognizes the posture of the person and sends live data on the phone through an app. It records the posture and classifies it as Good, Okay or Bad. It also gives the statistics and overall feedback of how it can be improved.
 
 
-*This project is a research product and is to be published by Springer.*
+*This project is a research product and is published by Springer.*
 
 ## Code
 
